@@ -2,25 +2,7 @@
 
 A set of functions for processing raw Kinelab output files in R.
 
-### Install as R package ###
 
-Can now be installed as a R package using the devtools package to load kinelabr directly from bitbucket. User authentication is still required at this stage.
-
-```R
-
-# install devtools if not already installed
-install.packages("devtools")
-
-# install kinelabr package
-library(devtools)
-install_bitbucket("dan-m/kinelabr", 
-                  auth_user = "<your_username>", 
-                  password = "<your_password>")
-
-# load kinelabr functions
-library(kinelabr)
-
-```
 
 ### Directory structure ###
 
